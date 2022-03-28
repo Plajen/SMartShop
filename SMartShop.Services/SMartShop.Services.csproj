@@ -1,0 +1,13 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\SMartShop.Domain\SMartShop.Domain.csproj" />
+    <ProjectReference Include="..\SMartShop.Infra.CrossCutting.Infrastructure\SMartShop.Infra.CrossCutting.Infrastructure.csproj" />
+    <ProjectReference Include="..\SMartShop.Infra\SMartShop.Infra.csproj" />
+  </ItemGroup>
+
+</Project>
